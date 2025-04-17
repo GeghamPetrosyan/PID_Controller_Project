@@ -1,53 +1,78 @@
 
-```markdown
 # PID Controller Simulation for Water Level (C++ & Python GUI)
 
-## 🔧 Сборка и установка
+## 🔧 Сборка и установка | Build & Installation
 
-### 1. Скомпилируйте C++ код:
+### 1. Скомпилируйте C++ код | Compile the C++ code:
 
 ```bash
-g++ pid_controller.cpp -o pid_controller
+g++ main.cpp -o Main
 ```
 
-### 2. Установите необходимые библиотеки Python:
+### 2. Установите необходимые библиотеки Python | Install required Python libraries:
 
 ```bash
 pip install matplotlib pyserial
 ```
 
-## 🚀 Использование
+---
 
-1. Запустите Python GUI:
+## 🚀 Использование | Usage
+
+1. Запустите Python GUI | Run the Python GUI:
 
 ```bash
 python GUI.py
 ```
 
-2. Введите начальные параметры:
+2. Введите параметры | Enter simulation parameters:
 
-- **Начальная высота воды**
-- **Желаемая высота воды**
-- **Коэффициенты ПИД-регулятора**: `Kp`, `Ki`, `Kd`
+- **Начальная высота воды** | **Initial water level**
+- **Желаемая высота воды** | **Target water level**
+- **Коэффициенты ПИД-регулятора** (`Kp`, `Ki`, `Kd`)  
+  **PID controller coefficients** (`Kp`, `Ki`, `Kd`)
 
-3. Нажмите **"Start Simulation"** для запуска симуляции.
+3. Нажмите **"Start Simulation"** для запуска  
+   Click **"Start Simulation"** to begin the simulation.
 
-## 📁 Структура проекта
+---
 
-- `pid_controller.cpp` — C++ код для расчета уровня воды с использованием ПИД-регулятора.
-- `GUI.py` — Python-код для графического интерфейса пользователя и визуализации данных.
+## 📁 Структура проекта | Project Structure
 
-## 📊 Пример вывода
+- `mainr.cpp` — C++ код для расчета уровня воды с использованием ПИД-регулятора.  
+  C++ code for calculating water level using a PID controller.
 
-- **График**: отображает текущий уровень воды, начальную и желаемую высоту.
-- **Текстовые метки**: показывают входящий и выходящий потоки воды в реальном времени.
+- `GUI.py` — Python-код для графического интерфейса и визуализации данных.  
+  Python GUI for user input and real-time data visualization.
 
-## 🤝 Вклад
+---
 
-Хотите внести вклад в проект?
+## 📊 Пример вывода | Example Output
 
-1. Создайте форк репозитория.
-2. Внесите изменения.
-3. Отправьте pull request.
+- **График**: текущий, начальный и целевой уровни воды.  
+  **Graph**: displays current, initial, and target water levels.
 
-Мы приветствуем любые улучшения и исправления!
+- **Текстовые метки**: входящий и исходящий потоки воды.  
+  **Text labels**: show incoming and outgoing water flow in real time.
+
+---
+
+## 🤝 Вклад | Contributing
+
+Хотите внести вклад в проект?  
+Want to contribute to this project?
+
+1. Создайте форк репозитория. | Fork the repository.  
+2. Внесите изменения. | Make your changes.  
+3. Отправьте pull request. | Submit a pull request.
+
+Мы приветствуем любые улучшения и исправления!  
+All improvements and bugfixes are welcome!
+
+---
+
+## 🌐 Язык интерфейса | Interface Language
+
+Интерфейс на английском языке.  
+The GUI is in English by default.
+
