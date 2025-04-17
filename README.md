@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Вот цельный, правильно оформленный файл `README.md`, который можно сразу вставить в проект:
 
 ```markdown
 # PID Controller Simulation for Water Level (C++ & Python GUI)
